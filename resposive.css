@@ -1,0 +1,332 @@
+@media screen and (max-width:1025px) {
+
+    .hi {
+        font-size: 50px;
+    }
+
+    .muthu-dev {
+        font-size: 70px;
+    }
+
+
+    @keyframes card-Swing {
+        0% {
+            transform: rotate(-5deg);
+        }
+
+        100% {
+            transform: rotate(5deg);
+        }
+    }
+
+    @keyframes id-card {
+        15% {
+            transform: rotateY(15deg);
+        }
+
+        35% {
+            transform: rotateY(-20deg);
+        }
+
+        60% {
+            transform: rotateY(15deg);
+        }
+
+        85% {
+            transform: rotateY(-20deg);
+        }
+    }
+
+    .glass-card {
+        width: 60%;
+    }
+
+    .id-card {
+        width: 300px;
+        height: 400px;
+    }
+
+    .lock {
+        height: 250px;
+        width: 25px;
+    }
+
+    .photo-img {
+        width: 180px;
+        height: 215px;
+    }
+
+    .skil-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 270px 400px 1fr;
+        justify-content: center;
+        grid-template-areas:
+            " tech-sk "
+            "card "
+            "skil-set"
+        ;
+    }
+
+    .float-card {
+        width: 200px;
+        height: 100px;
+    }
+
+    .score+td {
+        font-size: 5px;
+
+    }
+
+
+    .bar-bg {
+        height: 3px;
+
+    }
+
+    .bar-fill {
+        height: 2px;
+        border-radius: 4px;
+    }
+
+
+    .skil-set {
+        column-gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+
+    }
+}
+
+/* -------------------------------------- */
+
+
+@media screen and (max-width:786px) {
+
+    .hi {
+        font-size: 30px;
+    }
+
+    .muthu-dev {
+        font-size: 40px;
+    }
+
+
+
+
+
+
+
+
+    .skil-set {
+        column-gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .project-sh {
+        width: 100%;
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .project-img img {
+        width: 100%;
+    }
+
+    .education {
+        margin: 30px 0px;
+        font-size: 50px
+    }
+
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 70px;
+
+    }
+
+    .content-section {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto;
+        gap: 40px;
+        justify-content: center;
+        grid-template-areas:
+            " contact  "
+            "contact-form"
+            "table"
+        ;
+
+    }
+}
+
+/* -------------------------------------- */
+
+
+
+
+@media screen and (max-width:425px) {
+
+
+
+    /* Individual Sizes and Positions (12 Balls) */
+    .s-1 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .s-2 {
+        width: 5px;
+        height: 20px;
+    }
+
+    .s-3 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .s-4 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .s-5 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .s-6 {
+        width: 30px;
+        height: 30px;
+                display: none;
+
+    }
+
+    .s-7 {
+        width: 30px;
+        height: 30px;
+                display: none;
+
+    }
+
+    /* ------------- */
+
+    .s-8 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .s-9 {
+        width: 35px;
+        height: 35px;
+                display: none;
+
+    }
+
+    .s-10 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .s-11 {
+        width: 40px;
+        height: 40px;
+                display: none;
+
+    }
+
+    .s-12 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hi {
+        font-size: 15px;
+    }
+
+    .muthu-dev {
+        font-size: 25px;
+    }
+
+
+
+
+
+
+
+
+    .skil-set {
+        grid-template-columns: 1fr;
+    }
+
+    
+.skil-set img {
+    height: 100px;
+    width: 1500px;}
+
+    .tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .project-sh {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .project-img img {
+        width: 100%;
+    }
+
+    .education {
+        margin: 30px 0px;
+        font-size: 50px
+    }
+
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 70px;
+
+    }
+
+    .content-section {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto;
+        gap: 40px;
+        justify-content: center;
+        grid-template-areas:
+            " contact  "
+            "contact-form"
+            "table"
+        ;
+
+    }
+}
+
+/* -------------------------------------- */
